@@ -1,4 +1,4 @@
-const swap = require('../models/swap');
+const swap = require('../models/swag');
 
 const checkForSession = (req,res,next) => {
   if(!req.session.user) {
